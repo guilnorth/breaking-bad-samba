@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/breaking-bad-samba/precache-manifest.954356aa443e42728d3d677fc9a5f11e.js"
+  "/breaking-bad-samba/precache-manifest.cb90f927e53d0b3946344e7b372da87b.js"
 );
 
 self.addEventListener('message', (event) => {
