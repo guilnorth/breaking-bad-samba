@@ -15,9 +15,9 @@ const Home = () => {
   const onDidMount = () => {
     handleFetch();
   };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     onDidMount();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
