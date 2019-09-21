@@ -1,70 +1,50 @@
 # Desafio Técnico Samba Tech
 > O desafio consiste em desenvolver uma aplicação consumindo a ​ API pública de
-Breaking Bad( ​ https://breakingbadapi.com/Documentation ​ )
-
-<!-- [![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url] -->
-
-Projeto construído com ReactJS, Js ES6 e outras bibliotecas.
+Breaking Bad( https://breakingbadapi.com/Documentation )
 
 
-![](header.png)
 
-## Instalação
+## Aplicação 
 
-- Yarn
+Disponível em:
+> https://guilnorth.github.io/breaking-bad-samba/
+
+![](src/assets/screen.png)
+
+## Instalação Local
+
+Após clonar o reposítio, dentro da pasta do projeto execute: 
 
 ```sh
+# Através do yarn
 yarn install
 yarn start
-```
 
-- Npm
-
-```sh
+# Ou com npm
 npm install
 npm start
 ```
+## Testes
 
+Execute:  `npm test` or `yarn test`
 
-## Sobre
+A pasta dentro de `src/__tests__` possui os testes principais da aplicação.
 
+## Arquitetura
 
+- **React Hooks:** Hooks são a nova funcionalidade adicionada ao React 16.8 que permite trabalhar com o State e outros recursos sem a necessidade de se construir classes.
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
+- **React Redux:** Redux é uma biblioteca para gerenciamento de estados que facilita o gerenciamento das ações de todo o sistema.
 
-## Development setup
+- **Redux-Saga:** O Redux-Saga trabalha com os side effcts do Redux como controle de fluxo de chamadas assíncronas.
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+- **[Duck Pattern:][duck]** Duck Pattern é uma maneira de se escrever códigos React Redux onde toda a parte de Actions, Reducer e Creators fica em um único arquivo, separando-se por funcionalidades.
 
-```sh
-make install
-npm test
-```
+- **Axios:** Axios é a famosa e útil biblioteca para se trabalhar com chamadas Api de forma simples e de fácil configuração.
 
-## Stack
-
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
 
 
 
 
 <!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
+[duck]: https://github.com/erikras/ducks-modular-redux

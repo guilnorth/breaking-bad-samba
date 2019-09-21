@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux';
 import CardCharacter from '../../components/cardCharacter';
 import './style.css'
-import { Grid, Row, Col } from 'react-flexbox-grid';
+import { Container, Row, Col } from 'react-grid-system';
 
 const Search = () => {
 
@@ -10,7 +10,7 @@ const Search = () => {
   const searchTerm = useSelector(state => state.character.searchTerm)
 
   return (
-    <Grid fluid>
+    <Container>
       <Row>
         <h1 className='titleSearch'>Você pesquisou por "{searchTerm}"</h1>
       </Row>
@@ -21,7 +21,7 @@ const Search = () => {
           </Col>
         ))}
       </Row>
-    </Grid>
+    </Container>
   )
 }
 

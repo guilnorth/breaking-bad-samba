@@ -1,70 +1,68 @@
-
-
 .container {
-  
-  position: relative;
-  max-width: 480px;
-  min-height: 520px;
-  margin: 0 auto;
-  padding: 0 !important;
-  overflow: hidden;
-  
+    position: relative;
+    max-width: 480px;
+    min-height: 420px;
+    margin: 0 auto;
+    padding: 0 !important;
+    overflow: hidden;
 }
 
-.tag{
-  position: absolute;
-  display: inline-block;
-  background: #0A7A42;
-  color: #fff;
-  padding: 15px 30px;
-  top: 20px;
-  right: 0;
-  z-index: 2;
+.tag {
+    position: absolute;
+    display: inline-block;
+    background: #0A7A42;
+    color: #fff;
+    padding: 15px 30px;
+    top: 20px;
+    right: 0;
+    z-index: 2;
 }
 
-.tag-status__aliver{
-  background: #0A7A42;
+.tag-status__aliver {
+    background: #0A7A42;
 }
 
-.tag-status__unk{
-  background: #808080;
+.tag-status__unk {
+    background: #808080;
 }
 
-.tag-status__rip{
-  background: #F4651F;
+.tag-status__rip {
+    background: #F4651F;
 }
 
 .container img {
-  position: absolute;
-  object-fit: cover;
-  width: 100%;
-  transition: all .2s ease-in-out;
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    transition: all .2s ease-in-out;
 }
 
 .container img:hover {
-transform: scale(1.1);
+    transform: scale(1.1);
 }
-
 
 .content {
-  position: absolute;
-  bottom: 0;
-  background-image: linear-gradient(to top, #000 30%, rgba(0, 0, 0, 0) 100%);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 30px;
-  overflow: auto;
-  -webkit-backdrop-filter: blur(1px);
-  backdrop-filter: blur(1px);
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(to top, #000 30%, rgba(0, 0, 0, 0) 100%);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 30px;
+    overflow: auto;
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
 }
-.birth{
-  font-size: 0.8em;
-  margin: 15px 0;
+
+.birth {
+    font-size: 0.8em;
+    margin: 15px 0;
 }
-.iconBirth{
-  font-size: 1em;
-  padding-right: 5px;
+
+.iconBirth {
+    font-size: 1em;
+    padding-right: 5px;
 }
-.content .desc{
-  font-size: 0.735em;
+
+.content .desc {
+    font-size: 0.735em;
 }

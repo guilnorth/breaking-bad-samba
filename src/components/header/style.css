@@ -1,61 +1,60 @@
-.header{
-    background: #000;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+.header {
+  padding: 20px 0px;
+  background: #000;
+}
+.containerHeader {
+  padding: 0px 15px;
+  display: flex;
+  justify-content: space-between !important;
+}
+.searchContainer {
+  display: flex;
 }
 
-* {
-    box-sizing: border-box;
-  }
-  
-  
-  .searchContainer input[type=text]:focus {
-  border-bottom: 1px solid #0A7A42;
-      box-shadow: 0 1px 0 0 #0e7441;
-      }
-  .searchContainer input[type=text] {
-  color:#fff;
-    padding: 10px;
-    padding-left:0;
-    font-size: 17px;
-    border: 1px solid grey;
-    float: left;
-    width: 80%;
-      background-color: transparent;
-      border: none;
-      border-bottom: 1px solid #ced4da;
-      border-radius: 0;
-      outline: 0;
-      box-shadow: none;
-      transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    
-  }
-  
-  .searchContainer button {
-    float: left;
-    width: 20%;
-    padding: 10px;
-    background-color: transparent;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    border: none;
-      border-bottom: 1px solid #ced4da;
-      border-radius: 0;
-      outline: 0;
-      box-shadow: none;
-      transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-  }
-  
-  .searchContainer button:hover {
-    background: #0A7A42;
-  }
-  
-  .searchContainer::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+.searchContainer input[type="text"]:focus {
+  border-bottom: 1px solid #0a7a42;
+  box-shadow: 0 1px 0 0 #0e7441;
+}
+
+.searchContainer input[type="text"] {
+  color: #fff;
+  font-size: 17px;
+  border: 1px solid grey;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ced4da;
+  border-radius: 0;
+  outline: 0;
+  box-shadow: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  padding: 10px 0px;
+}
+
+.searchContainer button:hover {
+  background: #0a7a42;
+}
+
+.inputSearch {
+  flex: 1 0 8em;
+}
+
+.buttonSearch {
+  flex: 0 0 auto;
+
+  width: 20%;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-bottom: 1px solid #ced4da;
+  border-radius: 0;
+  outline: 0;
+  box-shadow: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.searchContainer:before {
+  flex: 0 0 2.75em;
+}

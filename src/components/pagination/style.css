@@ -1,28 +1,28 @@
 .pagination {
     display: inline-block;
-    
-  }
-  
-  .pagination a {
+    align-content: center
+}
+
+.pagination a {
     color: #fff;
     float: left;
     padding: 8px 16px;
     margin-left: 10px;
     text-decoration: none;
 }
-  
-  .pagination a.active {
+
+.pagination a.active {
     background-color: #4CAF50;
     color: #000;
     border-radius: 5px;
     pointer-events: none;
     cursor: default;
-  }
-  
-  .pagination a:hover:not(.active) {
+}
+
+.pagination a:hover:not(.active) {
     background-color: #4CAF50;
     border-radius: 5px;
-  }
+}
 
 .pagination a:last-child {
     margin-left: 0;

@@ -1,15 +1,14 @@
-.cardItem{
-   margin: 50 50;
-}
-.containerPagination{
-   
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    
+.cardItem {
+  margin: 50px 50px;
 }
 
-.titleHome{
-   margin: 15px 10px;
-   color:#FFF;
+.containerPagination {
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.titleHome {
+  color: #fff;
 }

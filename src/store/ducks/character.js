@@ -38,7 +38,7 @@ export default function character(state = INITIAL_STATE, action) {
     case Types.RESET_SEARCH_LIST:
       return { ...state, searchResults: [] };
     case Types.ADD_SEARCH_LIST:
-      console.log({ ...state, searchResults: [...state.searchResults, ...action.payload] }); return { ...state, searchResults: [...state.searchResults, ...action.payload] };
+      return { ...state, searchResults: [...state.searchResults, ...action.payload] };
     default:
       return state;
   }
