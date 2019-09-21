@@ -6,6 +6,7 @@
   max-width: 480px;
   min-height: 520px;
   margin: 0 auto;
+  padding: 0 !important;
   overflow: hidden;
   
 }

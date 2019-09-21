@@ -4,11 +4,12 @@
   }
   
   .pagination a {
-    color: #FFF;
+    color: #fff;
     float: left;
     padding: 8px 16px;
+    margin-left: 10px;
     text-decoration: none;
-  }
+}
   
   .pagination a.active {
     background-color: #4CAF50;
@@ -22,3 +23,7 @@
     background-color: #4CAF50;
     border-radius: 5px;
   }
+
+.pagination a:last-child {
+    margin-left: 0;
+}
