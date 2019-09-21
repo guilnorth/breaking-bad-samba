@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f8d297c849750b67eb016262c65a83cb",
+    "revision": "3e504749e434b14bca536c80b3ebcc74",
     "url": "/breaking-bad-samba/index.html"
   },
   {
-    "revision": "57958eb2e47749645ae4",
+    "revision": "23e40d577542b228043a",
     "url": "/breaking-bad-samba/static/css/main.33ec6393.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/breaking-bad-samba/static/js/2.565bfcbf.chunk.js"
   },
   {
-    "revision": "57958eb2e47749645ae4",
-    "url": "/breaking-bad-samba/static/js/main.78bfc2b4.chunk.js"
+    "revision": "23e40d577542b228043a",
+    "url": "/breaking-bad-samba/static/js/main.a38cfb2f.chunk.js"
   },
   {
     "revision": "a87dd7fee887b671790c",

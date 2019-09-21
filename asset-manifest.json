@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/breaking-bad-samba/static/css/main.33ec6393.chunk.css",
-    "main.js": "/breaking-bad-samba/static/js/main.78bfc2b4.chunk.js",
-    "main.js.map": "/breaking-bad-samba/static/js/main.78bfc2b4.chunk.js.map",
+    "main.js": "/breaking-bad-samba/static/js/main.a38cfb2f.chunk.js",
+    "main.js.map": "/breaking-bad-samba/static/js/main.a38cfb2f.chunk.js.map",
     "runtime~main.js": "/breaking-bad-samba/static/js/runtime~main.dd73f2ea.js",
     "runtime~main.js.map": "/breaking-bad-samba/static/js/runtime~main.dd73f2ea.js.map",
     "static/js/2.565bfcbf.chunk.js": "/breaking-bad-samba/static/js/2.565bfcbf.chunk.js",
     "static/js/2.565bfcbf.chunk.js.map": "/breaking-bad-samba/static/js/2.565bfcbf.chunk.js.map",
     "index.html": "/breaking-bad-samba/index.html",
-    "precache-manifest.6d9d2ee14a23f541e958f1bc83e7cfa6.js": "/breaking-bad-samba/precache-manifest.6d9d2ee14a23f541e958f1bc83e7cfa6.js",
+    "precache-manifest.2ca7e503c8fb17df9fd65d93d42f8ef0.js": "/breaking-bad-samba/precache-manifest.2ca7e503c8fb17df9fd65d93d42f8ef0.js",
     "service-worker.js": "/breaking-bad-samba/service-worker.js",
     "static/css/main.33ec6393.chunk.css.map": "/breaking-bad-samba/static/css/main.33ec6393.chunk.css.map",
     "static/media/Breaking_Bad_logo.svg": "/breaking-bad-samba/static/media/Breaking_Bad_logo.427a4adc.svg"
