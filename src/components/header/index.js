@@ -11,7 +11,7 @@ const Header = () => {
   const dispatch = useDispatch();
 
   const handleSearch = () => {
-    if (searchTerm && searchTerm.length >= 4)
+    if (searchTerm && searchTerm.length >= 3)
       dispatch(Actions.requestSearch(searchTerm))
   }
   const handleKeyDown = (e) => {
