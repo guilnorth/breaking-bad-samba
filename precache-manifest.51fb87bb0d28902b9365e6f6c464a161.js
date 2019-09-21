@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "77d6086b9b8c28d770af6880a734b0b6",
+    "revision": "1bdc72e42ce50aa786eddd18b94bbd64",
     "url": "/breaking-bad-samba/index.html"
   },
   {
-    "revision": "b43f1e491dac190b4e25",
+    "revision": "cd9ba1acb7ddce566b39",
     "url": "/breaking-bad-samba/static/css/2.22d6b5ec.chunk.css"
   },
   {
-    "revision": "539b299bc023e5dcdc1a",
-    "url": "/breaking-bad-samba/static/css/main.4c976bfc.chunk.css"
+    "revision": "b328cefeda1d9618900a",
+    "url": "/breaking-bad-samba/static/css/main.215d00c4.chunk.css"
   },
   {
-    "revision": "b43f1e491dac190b4e25",
-    "url": "/breaking-bad-samba/static/js/2.60656b5e.chunk.js"
+    "revision": "cd9ba1acb7ddce566b39",
+    "url": "/breaking-bad-samba/static/js/2.be3bac10.chunk.js"
   },
   {
-    "revision": "539b299bc023e5dcdc1a",
-    "url": "/breaking-bad-samba/static/js/main.4500b1ae.chunk.js"
+    "revision": "b328cefeda1d9618900a",
+    "url": "/breaking-bad-samba/static/js/main.bb0acda8.chunk.js"
   },
   {
     "revision": "a87dd7fee887b671790c",
