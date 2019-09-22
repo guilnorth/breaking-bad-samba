@@ -13,7 +13,7 @@ Disponível em:
 
 ## Instalação Local
 
-Após clonar o reposítio, dentro da pasta do projeto execute:
+Após clonar o repositório, dentro da pasta do projeto execute:
 
 ```sh
 # Através do yarn
@@ -27,7 +27,7 @@ npm start
 
 ## Testes
 
-Execute: `npm test` or `yarn test`
+Execute: `npm test` ou `yarn test`
 
 A pasta dentro de `src/__tests__` possui os testes principais da aplicação.
 
