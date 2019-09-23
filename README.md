@@ -43,6 +43,11 @@ A pasta dentro de `src/__tests__` possui os testes principais da aplicação.
 
 - **Axios:** Axios é a famosa e útil biblioteca para se trabalhar com chamadas Api de forma simples e de fácil configuração.
 
+## Observações
+- **Página de Busca:** Para a busca de personagens, como a Api só faz a busca por nome completo, utilizei uma lista de nomes `src/utils/namesCharacters.json` obtidos a partir do endpoint que retorna todas os personagens e, a partir dela, checo se o nome está presente para realizar buscas separadas com cada nome no Saga.
+
+- **Paginação:** Para a paginação, era necessário que a Api retornasse o número total de itens. Como isso não acontece decidi por fixar de acordo com o número de personagens existentes no arquivo `src/utils/namesCharacters.json` (uma vez que a série já chegou ao fim, considerei que muito provavelmente esse número não deve se alterar). Havia outras opções, como buscar todos os personagens no endpoint de /character e a partir dele construir a paginação porém, isto seria mais custoso pois é uma requisição maior.
+
 <!-- Markdown link & img dfn's -->
 
 [duck]: https://github.com/erikras/ducks-modular-redux
